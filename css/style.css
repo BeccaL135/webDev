@@ -32,3 +32,63 @@ body {
 .nav-link:hover {
   color: #ffffff !important;
 }
+.hero p {
+  max-width: 600px;
+  margin: 0 auto;
+  opacity: 0.95;
+}
+
+
+.btn-light {
+  background-color: #ffffff;
+  color: var(--dark-blue);
+  border: none;
+  padding: 0.75rem 1.75rem;
+  border-radius: 999px;
+  font-weight: 500;
+}
+
+.btn-light:hover {
+  background-color: var(--light-blue);
+  color: var(--dark-blue);
+}
+
+
+section {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.card {
+  background-color: var(--card-bg);
+  border: none;
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.15);
+}
+
+.card-img-top {
+  border-top-left-radius: 1.25rem;
+  border-top-right-radius: 1.25rem;
+}
+
+.card-title {
+  color: var(--mid-blue);
+  font-weight: 600;
+}
+
+.about-text p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+footer {
+  background-color: #e5e7eb;
+  font-size: 0.9rem;
+  color: #475569;
+}
