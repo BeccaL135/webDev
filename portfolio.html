@@ -28,6 +28,146 @@
     </div>
   </nav>
 </header>
+<main class="container mt-5">
+  <section class="bg-light rounded-4 p-4">
+    <h1 class="mb-4">My Work</h1>
+
+    <div class="row g-4">
+
+      <article class="col-md-6 col-lg-4">
+        <div class="card h-100 portfolio-card"
+            data-bs-toggle="modal"
+            data-bs-target="#projectOneModal">
+        <img src="images/Maths.jpg" class="card-img-top" alt="Project image">
+            <div class="card-body">
+             <h5 class="card-title">Maths Quiz</h5>
+             <p class="card-text">Click to view more details.</p>
+                </div>
+            </div>
+        </article>
+
+      <article class="col-md-6 col-lg-4">
+  <div class="card h-100 portfolio-card"
+       data-bs-toggle="modal"
+       data-bs-target="#projectTwoModal">
+
+    <img src="images/Quiz.jpg" class="card-img-top" alt="Project image">
+    <div class="card-body">
+      <h5 class="card-title">Main Quiz</h5>
+      <p class="card-text">Click to view more details.</p>
+    </div>
+  </div>
+</article>
+
+<article class="col-md-6 col-lg-4">
+  <div class="card h-100 portfolio-card"
+       data-bs-toggle="modal"
+       data-bs-target="#projectThreeModal">
+
+    <img src="images/Game.jpg" class="card-img-top" alt="Project image">
+    <div class="card-body">
+      <h5 class="card-title">Platform Game</h5>
+      <p class="card-text">Click to view more details.</p>
+    </div>
+  </div>
+</article>
+
+    </div>
+  </section>
+</main>
+
+
+<div class="modal fade" id="projectOneModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Maths Quiz</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <img src="images/Maths.jpg" class="img-fluid rounded mb-4" alt="Project image">
+
+        <p>
+          This project demonstrates a simple maths quiz application built with Python.
+        </p>
+
+        <ul>
+          <li>Python programming</li>
+        </ul>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="projectTwoModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Main Quiz</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <img src="images/Quiz.jpg" class="img-fluid rounded mb-4" alt="Project image">
+
+        <p>
+          A main quiz application built with HTML, php, and CSS.
+        </p>
+
+        <ul>
+          <li>HTML5 & semantic structure</li>
+          <li>CSS styling and layout</li>
+          <li>PHP backend logic</li>
+        </ul>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="projectThreeModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Platform Game</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <img src="images/Game.jpg" class="img-fluid rounded mb-4" alt="Project image">
+
+        <p>
+          Platform game using C# and Unity.
+        </p>
+
+        <ul>
+          <li>C# programming</li>
+          <li>Unity game engine</li>
+          <li>Responsive UI design</li>
+        </ul>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
